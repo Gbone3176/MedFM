@@ -26,7 +26,9 @@ mim install mmcv-full==1.6.0
 
 ## week 2
 ## 试运行第一个代码
+```
 export PYTHONPATH=$PWD:$PYTHONPATH
+```
 上述官网中代码用来将medfmc包保存到路径中从而可以使用，将$PWD改为medfmc上一层路径即可，比如改为/storage/MedFM
 
 运行train.py
