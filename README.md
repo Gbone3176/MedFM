@@ -36,7 +36,7 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 ```
 python MedFM-master/tools/train.py MedFM-master/configs/vit-b_vpt/1-shot_chest.py
 ```
-或者直接将MedFM-master作为当前的PWD，然后运行
+或者直接将MedFM-master作为当前的PYTHONPATH，然后运行
 ```
 python tools/train.py configs/vit-b_vpt/1-shot_chest.py
 ```
