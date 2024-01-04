@@ -30,8 +30,9 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 上述官网中代码用来将medfmc包保存到路径中从而可以使用，将$PWD改为medfmc上一层路径即可，比如改为/storage/MedFM
 
 运行train.py
-
-python MedFM/tools/train.py MedFM/configs/vit-b16_vpt/in21k-vitb16_vpt1_bs4_lr6e-4_1-shot_chest.py
+```
+python MedFM/tools/train.py MedFM-master/configs/vit-b_vpt/1-shot_chest.py
+```
 出现如下报错： TypeError: FormatCode() got an unexpected keyword argument 'verify'
 
 说明yapf包版本过高，见<https://blog.csdn.net/ZZZZ_Y_/article/details/133902230>
