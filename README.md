@@ -34,7 +34,7 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 运行train.py
 
 ```
-python MedFM/tools/train.py MedFM-master/configs/vit-b_vpt/1-shot_chest.py
+python MedFM-master/tools/train.py MedFM-master/configs/vit-b_vpt/1-shot_chest.py
 ```
 
 出现如下报错： TypeError: FormatCode() got an unexpected keyword argument 'verify'
