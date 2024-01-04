@@ -36,7 +36,10 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 ```
 python MedFM-master/tools/train.py MedFM-master/configs/vit-b_vpt/1-shot_chest.py
 ```
-
+或者直接将MedFM-master作为当前的PWD，然后运行
+```
+python tools/train.py configs/vit-b_vpt/1-shot_chest.py
+```
 出现如下报错： TypeError: FormatCode() got an unexpected keyword argument 'verify'
 
 说明yapf包版本过高，见<https://blog.csdn.net/ZZZZ_Y_/article/details/133902230>
