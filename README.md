@@ -8,7 +8,9 @@ conda create --name openmmlab python=3.9 -y
 conda activate openmmlab
 接着安装pytorch，注意尽量安装GPU版本，根据自己的电脑显卡型号选择相应的CUDA安装，再根据CUDA版本安装pytorch，若安装的是CPU版本之后运行代码使用mmcv库会报错显示没有用上CUDA，可能因为mmcv只能安装匹配gpu版本，可以查下有无匹配cpu的版本
 
-将所给的MedFM git到自己电脑中，git安装指南：https://blog.csdn.net/Andone_hsx/article/details/87937329，遇到问题见评论区解决方案
+将所给的MedFM git到自己电脑中，git安装指南：
+```https://blog.csdn.net/Andone_hsx/article/details/87937329```
+，遇到问题见评论区解决方案
 
 确保pytorch安装成功后进行下一步安装：
 
