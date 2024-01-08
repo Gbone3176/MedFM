@@ -61,4 +61,4 @@ pip install mmcv==2.0.0 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1
 ```
 sudo -i
 ```
-开始研究vit16网络
+开始研究vit-b-16网络
