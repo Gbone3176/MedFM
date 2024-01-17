@@ -51,7 +51,7 @@ Master里的文件具有下载预训练模型的网络链接，因此运行它�
 使用MedFM-Master文件夹里的配置文件跑通一个程序，再使用验证命令（在下面）查看跑出来的模型的效果
 再在[MMPretrain](https://mmpretrain.readthedocs.io/zh-cn/latest/user_guides/config.html "MMPretrain")里学习如何修改参数
 
-## date:240108
+## week4:240108
 修改了以下两个问题，以不成熟的方式跑通一次：
 1.根据CUDA版本（11.1）（用nvcc -version）和torch版本（1.10）重新安装了mmcv，版本是2.0.0，不需要full
 ```
